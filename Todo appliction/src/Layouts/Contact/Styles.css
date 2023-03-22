@@ -1,0 +1,8 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 75vh;
+    column-gap: 50px;
+    padding: 1.8%;
+}

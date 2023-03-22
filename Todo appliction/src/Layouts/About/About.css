@@ -1,0 +1,31 @@
+.about-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000000;
+  height: 80vh;
+  padding: 10px;
+}
+.about-heading {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    transition: all 0.2s;
+}
+
+.about-paragraph:hover{
+    font-size: larger;
+    color: rgb(228, 152, 37);
+}
+.about-paragraph:last-child {
+    margin-bottom: 0;
+}
